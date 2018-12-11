@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+       <title>Program for Square and Cubes</title>
+       <style type="text/css">
+        table,h1,p{ text-align : center;}
+       </style> 
+</head>
+<body>
+        <h1>Program for Square and Cubes</h1>
+        <p>4sf15cs033</p>
+        <script type="text/javascript">
+                var mytable = "<table border='1' align='center'><tr><th>Number</th><th>Square</th><th>Cube</th>></tr>";
+                var square = 0,cube =0;
+                for(var i=0;i<=10;i++)
+                {
+                     square = i*i;
+                     cube = i*i*i;
+                     mytable+="<tr><td>"+i+"</td><td>"+square+"</td><td>"+cube+"</td></tr>";
+                }
+                mytable+="</table>";
+                document.write(mytable);
+        </script>
+</body>
+</html>

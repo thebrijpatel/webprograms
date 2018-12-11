@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+	<student>
+		<sname>Abhishek P</sname>
+		<usn>4SF15CS002</usn>
+		<college>SCEM</college>
+		<branch>CSE</branch>
+		<yoj>2015</yoj>
+		<email>abc@yahoo.com</email>
+	</student>
+	<student>
+		<sname>Brijesh Patel</sname>
+		<usn>4SF15CS033</usn>
+		<college>SCEM</college>
+		<branch>CSE</branch>
+		<yoj>2015</yoj>
+		<email>def@yahoo.com</email>
+	</student>
+	<student>
+		<sname>Akash Shetty</sname>
+		<usn>4SF15CS006</usn>
+		<college>SCEM</college>
+		<branch>CSE</branch>
+		<yoj>2015</yoj>
+		<email>ghi@yahoo.com</email>
+	</student>
+</students>

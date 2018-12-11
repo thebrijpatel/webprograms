@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Progrm for text animation</title>
+        <script type="text/javascript">
+        	function animate()
+        	{
+        		var val = window.getComputedStyle(document.getElementById("text")).fontSize;
+        		var fontsize = parseInt(val);
+        		var state = "growing";
+				document.getElementById("text").innerHTML ="TEXT GROWING";
+        		var timer = setInterval(textanimate,100);
+        		function textanimate()
+        		{
+        			console.log("textanimate"+val);
+        			if(state=="growing")
+        			{
+        				fontsize++;
+        				document.getElementById("text").innerHTML ="TEXT GROWING";
+        				document.getElementById("text").style.color = "red";
+        				document.getElementById("text").style.fontSize = fontsize+"pt";
+        			}
+        			if(state=="shrinking")
+        			{
+        				fontsize--;
+        				document.getElementById("text").innerHTML ="TEXT SHRINKING";
+        				document.getElementById("text").style.color = "blue";
+        				document.getElementById("text").style.fontSize = fontsize+"pt";
+        			}
+        			if(fontsize==50)
+        			{
+        				console.log("Start Shrink");
+        				state="shrinking";
+        			}
+        			if(fontsize==5)
+        			{
+        				clearInterval(timer);
+        			}
+        		}
+				document.getElementById('text').style.transform = 30+'deg';
+        	}
+        </script>
+    </head>
+    <body onload="animate()">
+    		<h1 style="text-align:center">
+    			Program for increasing / decreasing size of text
+    		</h1>
+    		<p style="text-align:center"> 4SF15CS033</p>
+    		<p style="text-align: center" id="text"></p>
+    	</body>
+</html>
