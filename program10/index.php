@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <head>
 <title>Select Sort on Student records</title>
 <style type="text/css">
