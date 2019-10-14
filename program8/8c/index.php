@@ -4,7 +4,7 @@ Array(3,4),
 Array(5,6));
 $mat2=Array(Array(2,4,8),
 Array(1,3,5));
-echo "<html><head><title>Matrix Multiplication</title></head><body><h3>4SF15CS033</h3>";
+echo "<!DOCTYPE html><head><title>Matrix Multiplication</title></head><body><h3>4SF15CS033</h3>";
 if(count($mat1[0])!=count($mat2))
 {
 echo "<h1>Incomplete Matrix</h1>";
