@@ -1,5 +1,5 @@
 students{
-	background-color: bisque;
+	background-color: cyan;
 	font-family:"cambria";
 }
 
@@ -28,7 +28,7 @@ usn{
 	color:blueviolet;
 }
 college:before{
-	content:"Affiliated college: ";
+	content:"Affiliated College: ";
 	font-size:14pt;
 	font-weight:bold;
 }
