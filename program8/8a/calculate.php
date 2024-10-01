@@ -27,7 +27,7 @@
 				$res=$op1/$op2;
 				break;
 	}
-	echo "<h1>Simple Calculator</h1>";
+	echo "<h1>Simple Calculator...</h1>";
 	echo "<h3>4SF15CS033</h3>";
 	echo "<h2>".$op1.$operator.$op2."=".$res."</h2>";?>
 </body>
